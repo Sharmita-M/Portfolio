@@ -23,7 +23,7 @@ a, .btn{
 /* desktop nav */
 
 nav{
-	height: 17vh !important;
+	height: 15vh !important;
 }
 a{
 	color: black;
@@ -31,10 +31,10 @@ a{
 	
 }
 a:hover{
-	color: blue;
+	color: rgb(78, 78, 255) !important;
 	text-decoration: underline !important;
 	text-underline-offset: 1rem !important;
-	text-decoration-color: blue !important;
+	text-decoration-color: rgb(138, 138, 251) !important;
 }
 .nav_links{
 	list-style-type: none !important;
@@ -50,7 +50,6 @@ a:hover{
 }
 .nav-icon i{
 	font-size: 1.5rem;
-	color: blue;
 	transition: opacity 0.3s ease-in-out;
 }
 .menu_links{
@@ -65,8 +64,7 @@ a:hover{
 	display: block;
 	padding: 10px;
 	text-align: center;
-	font-size: 1.5rem;
-	color: blue;
+	font-size: 1.2rem;
 	transition: all 0.3s ease-in-out;
 }
 .menu_links li{
@@ -79,6 +77,10 @@ a:hover{
 .nav-icon span:first-child{
 	transform: none;
 }
+.logo{
+	color: rgb(59, 59, 97) !important;
+	font-weight: 500;
+}
 /* //sections */
 
 section{
@@ -88,59 +90,48 @@ section{
 	box-sizing: border-box;
 	min-height: fit-content
 }
-.section-container{
-	display: flex;
-}
+
 /* //profile section */
 
 #profile{
-	display: flex;
-	justify-content: center;
 	gap: 5rem;
 	height: 80vh; 
 }
 .section-pic-container{
-	display: flex;
 	height: 400px;
 	width: 400px;
 	margin: auto 0;
 }
-.section-text{
-	align-self: center;
-	text-align: center;
-	
-}
-.section-text p{
-	font-weight: 600;
-}
-.section-text-p1{
-	text-align: center;
-}
-.section-text-p2{
-	font-size: 1.75rem;
-	margin-bottom: 1rem;
-}
-.title{
-	font-size: 3rem;
-	text-align: center;
-}
-.socials-container{
-	display: flex;
-	justify-content: center;
-	margin-top: 1rem;
-	gap: 1rem;
-}
-/* // icons */
-.icon{
-	cursor: pointer;
-	height: 2rem;
-}
-/* //buttons */
-.btn-container{
-	display: flex;
-	justify-content: center;
+
+.socials-container i{
+	color: rgb(43, 43, 86) !important;
 }
 
+/* //buttons */
+.profileBtn{
+	transition: all 300ms ease;	
+}
+.cvBtn{
+	border: 2px solid rgb(89, 89, 112) !important;
+}
+.contactBtn{
+	background-color: rgb(62, 62, 80) !important;
+}
+
+.cvBtn:hover{
+	color: #fff !important;
+	background-color: rgb(53, 53, 71) !important;
+}
+/* skills section */
+
+article{
+	display: flex;
+	width: 11rem;
+	gap: 0.5rem;
+}
+.skill-details{
+	flex: 1;
+}
 
 @media screen and (max-width: 1200px){
 	#desktop_nav{
