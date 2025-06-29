@@ -9,10 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
-</head>
 
 <body>
-    <nav id="desktop_nav" class="d-flex justify-content-around align-items-center shadow-sm p-3 mb-5 rounded position-sticky top-0 bg-white z-3   ">
+    <nav id="desktop_nav"
+        class="d-flex justify-content-around align-items-center shadow-sm p-3 mb-5 rounded position-sticky top-0 bg-white z-3   ">
         <div class="logo fs-2 cursor-default">Sharmita Mahapatra</div>
         <div>
             <ul class="nav_links d-flex align-items-center fs-5 ">
@@ -46,7 +46,7 @@
 
     <section id="profile" class="d-flex justify-content-center">
         <div class="section-pic-container d-flex">
-            <img class="rounded-circle" src="asserts/profile.jpeg" alt="Sharmita mahapatra Profile">
+            <img class="rounded-circle w-175" src="asserts/profile1.jpg" alt="Sharmita mahapatra Profile">
         </div>
         <div class=" align-self-center text-center">
             <p class=" text-center fw-medium ">Hello, i am</p>
@@ -69,15 +69,15 @@
         </div>
     </section>
 
-  
+
 
     <section id="about" class="position-relative">
-          <div class="mt-5 mb-5 pt-1"></div>
+        <div class="mt-5 mb-5 pt-1"></div>
         <p class="text-center fs-5"> Get to Know More</p>
         <h1 class="title text-center mb-5 text-primary-emphasis">About Me</h1>
         <div class=" d-flex gap-5">
             <div>
-                <img class="rounded-5" src="asserts/profile.jpeg" alt="about pic">
+                <img class="rounded-5 pic" src="asserts/profile2.jpg" alt="about pic">
             </div>
 
             <div class="gap-2 align-self-center">
@@ -114,16 +114,17 @@
     </section>
 
     <section id="skills" class="text-center">
-         <div class="mt-5 mb-5 pt-1"></div>
+        <div class="mt-5 mb-5 pt-1"></div>
         <p>Explore My</p>
         <h1 class="title text-primary-emphasis mb-4">Skills</h1>
         <div class=" text-start">
             <div class="d-flex justify-content-around gap-4">
 
-                <div class="skill-details w-50 border border-3 border-primary-emphasis rounded-5 p-5 text-center flex-1">
+                <div
+                    class="skill-details w-50 border border-3 border-primary-emphasis rounded-5 p-5 text-center flex-1">
                     <h2 class=" mb-5 text-primary-emphasis">Frontend Development</h2>
                     <div class=" d-flex flex-wrap gap-2 justify-content-around text-primary-emphasis">
-                        <article >
+                        <article>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
                                 class="bi bi-patch-check-fill" viewBox="0 0 16 16">
                                 <path
@@ -159,7 +160,7 @@
                             </div>
                         </article>
 
-                        
+
                         <article>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
                                 class="bi bi-patch-check-fill" viewBox="0 0 16 16">
@@ -188,7 +189,7 @@
 
                 </div>
 
-                
+
                 <div class="skill-details w-50 border border-3 border-primary-emphasis rounded-5 p-5 text-center">
                     <h2 class=" mb-5 text-primary-emphasis">Backend Development</h2>
                     <div class="  d-flex flex-wrap justify-content-around text-primary-emphasis">
@@ -248,10 +249,173 @@
             </div>
         </div>
 
-         <div class="float-end"><i class="fa-solid fa-angles-down fs-2 cursor-pointer"
+        <div class="float-end ms-5"><i class="fa-solid fa-angles-down fs-2 cursor-pointer"
                 onclick="location.href='./#project' "></i></div>
 
+
     </section>
+
+    <section id="project" class="text-center">
+        <div class="mt-5 mb-5 pt-1"></div>
+        <p class="section-text">Browse My Recent</p>
+        <h1 class="title text-primary-emphasis mb-4">Projects</h1>
+
+        <div class="d-flex justify-content-around flex-wrap gap-4">
+            <!-- project 1 -->
+
+            <div
+                class="experience-details-container border border-3 border-primary-emphasis rounded-5 p-5 text-center ">
+                <div>
+                    <div>
+                        <img src="asserts/Ajio-project.png" class=" w-100 h-100">
+                    </div>
+                    <h2 class=" mt-4 mb-4">Ajio Clone</h2>
+                    <div>
+                        <button class="btn rounded-pill profileBtn cvBtn fw-medium p-3 cursor-pointer me-4 github "
+                            onclick="location.href='https://github.com/Sharmita-M/ajio_clone.git' ">Github</button>
+                        <button
+                            class="btn rounded-pill profileBtn contactBtn fw-medium p-3 text-white cursor-pointer liveDemo"
+                            onclick="location.href='project live demo' ">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project 2 -->
+            <div class="experience-details-container border border-3 border-primary-emphasis rounded-5 p-5 text-center">
+                <div>
+                    <div>
+                        <img src="asserts/odia-digital.png" class=" w-100 h-100">
+                    </div>
+                    <h2 class=" mt-4 mb-4">Odia Digital</h2>
+                    <div>
+                        <button class="btn rounded-pill profileBtn cvBtn fw-medium p-3 cursor-pointer me-4 github"
+                            onclick="location.href='project link' ">Github</button>
+                        <button
+                            class="btn rounded-pill profileBtn contactBtn fw-medium p-3 text-white cursor-pointer liveDemo"
+                            onclick="location.href='project live demo' ">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project 3 -->
+            <div
+                class=" experience-details-container border border-3 border-primary-emphasis rounded-5 p-5 text-center">
+                <div>
+                    <div>
+                        <img src="asserts/eduford.png" class=" w-100 h-100">
+                    </div>
+                    <h2 class=" mt-4 mb-4">Edu Ford</h2>
+                    <div>
+                        <button class="btn rounded-pill profileBtn cvBtn fw-medium p-3 cursor-pointer me-4 github "
+                            onclick="location.href='project link' ">Github</button>
+                        <button
+                            class="btn rounded-pill profileBtn contactBtn fw-medium p-3 text-white cursor-pointer liveDemo"
+                            onclick="location.href='project live demo' ">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project 4 -->
+            <div
+                class=" experience-details-container border border-3 border-primary-emphasis rounded-5 p-5 text-center">
+                <div>
+                    <div>
+                        <img src="asserts/blogpage.png" class=" w-100 h-100">
+                    </div>
+                    <h2 class=" mt-4 mb-4">Blog Page</h2>
+                    <div>
+                        <button class="btn rounded-pill profileBtn cvBtn fw-medium p-3 cursor-pointer me-4 github "
+                            onclick="location.href='project link' ">Github</button>
+                        <button
+                            class="btn rounded-pill profileBtn contactBtn fw-medium p-3 text-white cursor-pointer liveDemo"
+                            onclick="location.href='project live demo' ">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project- 5 -->
+            <div
+                class=" experience-details-container border border-3 border-primary-emphasis rounded-5 p-5 text-center">
+                <div>
+                    <div>
+                        <img src="asserts/batballstump.png" class="w-100 h-100">
+                    </div>
+                    <h2 class=" mt-4 mb-4">Cricket Game</h2>
+                    <div>
+                        <button class="btn rounded-pill profileBtn cvBtn fw-medium p-3 cursor-pointer me-4 github "
+                            onclick="location.href='project link' ">Github</button>
+                        <button
+                            class="btn rounded-pill profileBtn contactBtn fw-medium p-3 text-white cursor-pointer liveDemo"
+                            onclick="location.href='project live demo' ">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project 6 -->
+
+            <div
+                class=" experience-details-container border border-3 border-primary-emphasis rounded-5 p-5 text-center">
+                <div>
+                    <div>
+                        <img src="asserts/todolist.png" class=" w-100 h-100">
+                    </div>
+                    <h2 class=" mt-4 mb-4">To Do List</h2>
+                    <div>
+                        <button class="btn rounded-pill profileBtn cvBtn fw-medium p-3 cursor-pointer me-4 github "
+                            onclick="location.href='project link' ">Github</button>
+                        <button
+                            class="btn rounded-pill profileBtn contactBtn fw-medium p-3 text-white cursor-pointer liveDemo"
+                            onclick="location.href='project live demo' ">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="float-end"><i class="fa-solid fa-angles-down fs-2 cursor-pointer"
+                onclick="location.href='./#contact' "></i></div>
+
+    </section>
+
+
+
+    <section id="contact" class="contact-section text-center bg-white text-primary-emphasis">
+         <div class="mt-5 mb-5 pt-1"></div>
+        
+            <p class="text-muted mb-1">Get in Touch</p>
+            <h1 class="mb-5 fw-bold">Contact Me</h1>
+             <div class="mt-5 mb-5 pt-1"></div>
+
+            <!-- Contact Info -->
+            <div class="row justify-content-center mb-5 ">
+                <div class="col-md-3 contact-info mb-3">
+                    <i class="fa-solid fa-envelope mb-2 text-primary-emphasis"></i>
+                    <p>Email</p>
+                    <a href="mailto:sharmitaxmahapatra@gmail.com">sharmitaxmahapatra@gmail.com</a>
+                </div>
+                <div class="col-md-3 contact-info mb-3">
+                    <i class="fa-solid fa-phone mb-2 text-primary-emphasis"></i>
+                    <p>Phone</p>
+                    <a href="tel:+919437693256">+91 94376 93256</a>
+                </div>
+                <div class="col-md-3 contact-info mb-3">
+                    <i class="fa-brands fa-linkedin mb-2 text-primary-emphasis"></i>
+                    <p>LinkedIn</p>
+                    <a href="https://www.linkedin.com/in/sharmita-mahapatra-ab43b0299" target="_blank">Sharmita Mahapatra</a>
+                </div>
+            </div>
+     <div class="mt-5 mb-5 pt-1"></div>
+
+                            <div class="mt-4 d-grid  justify-content-center">
+                                <button type="button" onclick="location.href='./#profile' " class="btn cvBtn btn-lg">Back To Top</button>
+                            </div>
+        
+        
+    </section>
+
+
+
 
 
 
@@ -261,6 +425,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
